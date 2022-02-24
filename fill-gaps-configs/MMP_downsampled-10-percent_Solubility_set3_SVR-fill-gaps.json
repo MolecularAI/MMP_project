@@ -1,0 +1,36 @@
+{
+    "task": "building",
+    "data": {
+        "input_column": "SMILES",
+        "response_column": "VALUE",
+        "training_dataset_file": "../downsampled-10-percent/Solubility_set3_train.csv",
+        "test_dataset_file": null
+    },
+    "metadata": {
+        "cross_validation": 3,
+        "shuffle": false,
+        "best_trial": 204,
+        "best_value": 0.39019395618070546,
+        "n_trials": 300,
+        "visualization": null
+    },
+    "descriptor": {
+        "name": "ECFP",
+        "parameters": {
+            "radius": 3,
+            "nBits": 2048
+        }
+    },
+    "settings": {
+        "mode": "regression",
+        "direction": "maximize",
+        "n_trials": 300
+    },
+    "algorithm": {
+        "name": "SVR",
+        "parameters": {
+            "C": 3.0970012301724403,
+            "gamma": 0.01625471071742023
+        }
+    }
+}
