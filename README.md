@@ -1,4 +1,10 @@
-# Code for paper Implications of Additivity and Non-additivity for Machine Learning and Deep Learning Models in Drug Design
+**Please note: this repository is no longer being maintained.**
+
+# Additivity and Nonadditivity for ML in Drug Design
+
+This repository contains code for paper: 
+
+Karolina Kwapien, Eva Nittinger, Jiazhen He, Christian Margreitter, Alexey Voronov, and Christian Tyrchan. Implications of Additivity and Nonadditivity for Machine Learning and Deep Learning Models in Drug Design. ACS Omega 2022 7 (30), 26573-26581. DOI: [10.1021/acsomega.2c02738](https://doi.org/10.1021/acsomega.2c02738)
 
 This repository contains code to run hyper-parameter optimization for RF, SVR, XGBoost, and PLS algorithms. The data is not included in this repository.
 
